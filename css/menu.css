@@ -1,0 +1,87 @@
+<style type="text/css">
+body{
+	background:#3CF;
+}
+
+body,td,th {
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+	width: 1000px;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#005883));/*Para chrome y Safari*/
+	/*Degradados*/
+	background-image: -moz-linear-gradient(top center, #005883);/*Para Firefox*/
+	background-image: -o-linear-gradient(top, #005883);/*Para Opera*/
+	background-image: linear-gradient(top, #005883);/*El estandar por defecto*/
+	overflow:hidden;
+	padding:1px;
+	text-align: center;
+	list-style-type:none;
+	text-align: center; /*con esto mas inline-block en ul centro la lista */
+	
+	
+}
+nav ul{
+	list-style:none;
+	margin:0 10px 0 10px;
+	padding:0;
+	float: left;
+	text-align: center;
+
+	float: left;
+            list-style-type: none;
+            padding: 0; 
+            /* AÑADIMOS */
+            position: relative; 
+            left: 50%;
+}
+
+nav ul li{
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	margin-right:10px;
+	text-align:center;
+	/*Sombras para texto, los mismos parametros que box-shadow*/
+	text-shadow: 0px 1px 0px #FFF;   
+
+	float: left;
+            /* AÑADIMOS */
+            position: relative; 
+            right: 50%;
+}
+nav ul li:hover{
+	/*Degradado de fondo*/
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#F0B429));/*Chrome y Safari*/
+	background-image: -moz-linear-gradient(top center, #FFF, #E3E3E3);/*Firefox*/
+	background-image: -o-linear-gradient(top, #FFF, #E3E3E3);/*Opera*/
+	background-image: linear-gradient(top, #FFF, #E3E3E3);/*Estandar por defecto*/
+	/*Sombras para bloques o cajas*/
+	-webkit-box-shadow:  1px -1px 0px  #005883;/*Chrome y Safari*/
+	-moz-box-shadow:  1px -1px 0px #999;/*Firefox*/
+	-o-box-shadow:  1px -1px 0px  #005883;/*Opera*/
+	box-shadow:  1px -1px 0px #999;/*Estandar por defecto*/
+	border:1px solid #E3E3E3;
+
+}
+nav ul li a{
+	color:	#FFFFFF;
+	display:block;
+	padding:10px;
+	text-decoration:none;
+	/*Transiciones: Tiempo, Efecto y Propiedades aplicadas*/
+	-webkit-transition: 0.4s linear all;/*Chrome y Safari*/
+  	-moz-transition: 0.4s linear all;/*Firefox*/
+  	-o-transition: 0.4s linear all;/*Opera*/
+  	transition: 0.4s linear all;/*Estandar por defecto*/
+  	position:relative;
+  		
+ }
+
+nav ul li a:hover {
+	color:#000;
+	font-weight: bold;
+ 	
+}
+
+</style>
